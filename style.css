@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(217, 105, 222);
+  background: linear-gradient(
+    97deg,
+    rgba(217, 105, 222, 0.8504672897196262) 2%,
+    rgba(71, 117, 217, 1) 92%
+  );
+  color: white;
+}
+
+::selection {
+  background-color: rgba(247, 171, 251, 0.85);
+}
+
+h1 {
+  letter-spacing: 0.4rem;
+}
+
+.clock {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 4rem;
+}
+
+.clock span {
+  background: #111d37;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
