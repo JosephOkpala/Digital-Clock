@@ -11,6 +11,7 @@ function digitalClock() {
     h = h - 12;
   }
   h = h < 10 ? '0' + h : h;
+  m = m < 10 ? '0' + m : m;
 
   hoursElement.innerText = h;
   minsElement.innerText = m;
